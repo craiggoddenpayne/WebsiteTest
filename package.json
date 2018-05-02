@@ -1,0 +1,16 @@
+{
+  "name": "websitetests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  },
+  "scripts": {
+    "test-start": "./node_modules/.bin/cypress open",
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "author": "",
+  "license": "ISC"
+}
